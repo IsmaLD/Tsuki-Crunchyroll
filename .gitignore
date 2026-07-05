@@ -1,0 +1,12 @@
+# Binarios (se compilan en CI o localmente con scripts/build.sh)
+*.exe
+tsuki-bridge-linux
+setup/assets/tsuki-bridge-host.exe
+
+# Paquetes generados
+*.zip
+
+# Editor / SO
+.vscode/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,30 @@
+name: release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Build (bridge → setup → paquetes)
+        run: ./scripts/build.sh
+
+      - name: Publicar release con artefactos
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/tsuki-setup.zip
+            dist/tsuki-extension.zip
+            dist/tsuki-bridge.exe
+          generate_release_notes: true

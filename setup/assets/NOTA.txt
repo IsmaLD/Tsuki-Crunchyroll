@@ -1,0 +1,1 @@
+assets/tsuki-bridge-host.exe se genera con scripts/build.sh (el go:embed del setup lo requiere antes de compilar)
