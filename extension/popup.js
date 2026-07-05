@@ -1,7 +1,7 @@
 // Popup v3 — dashboard + ajustes completos
 
 // Instalador del bridge (tsuki-setup.exe) en GitHub Releases
-const BRIDGE_DOWNLOAD_URL = 'https://github.com/IsmaLD/tsuki/releases/latest';
+const BRIDGE_DOWNLOAD_URL = 'https://github.com/IsmaLD/Tsuki-Crunchyroll/releases/latest/download/tsuki-setup.exe';
 
 const DEFAULTS = {
   skipIntro: true, skipEnding: true, skipRecap: true, autoNext: true,
