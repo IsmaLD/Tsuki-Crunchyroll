@@ -37,7 +37,7 @@ type Config struct {
 	InstallURL string `json:"install_url"`
 }
 
-const defaultInstallURL = "https://chromewebstore.google.com/detail/dpojkngmcgoahbckceihellefaimkabd"
+const defaultInstallURL = "https://chromewebstore.google.com/detail/eledeehbohbpjmpclfmkajpcfehbolje"
 
 // Application ID de la app "Tsuki Crunchyroll" en Discord (compartida por
 // todos los usuarios, igual que hace PreMiD). Sobreescribible por config.

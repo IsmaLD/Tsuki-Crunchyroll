@@ -20,7 +20,7 @@ var hostExe []byte
 var logoPng []byte
 
 const hostName = "com.tsuki.bridge"
-const extensionOrigin = "chrome-extension://dpojkngmcgoahbckceihellefaimkabd/"
+const extensionOrigin = "chrome-extension://eledeehbohbpjmpclfmkajpcfehbolje/"
 
 func installDir() string {
 	return filepath.Join(os.Getenv("LOCALAPPDATA"), "Tsuki")
